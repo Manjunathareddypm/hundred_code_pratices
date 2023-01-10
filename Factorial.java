@@ -8,10 +8,10 @@ public class Factorial {
 		if(number < 0) {
 			System.out.println("Number should be non-negative.");
 		}else {
-			for(int i = 1; i<number; i++) {
+			for(int i = 1; i<=number; i++) {
 				fact = fact * i;
 			}
-			System.out.println("Factorial of " +number+ "! is = " +fact);
+			System.out.println("Factorial of " +number+ " is = " +fact);
 		}
 	}
 	public static void main(String[] args) {
